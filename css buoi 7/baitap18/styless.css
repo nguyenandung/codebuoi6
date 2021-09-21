@@ -1,5 +1,8 @@
 body {
     color: white;
+    background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2020/09/hinh-anh-gif-khu-rung-nguyen-sinh-840x473.gif) ;
+    background-size: 100%;
+    
 }
 .top {
     width: 100%;
@@ -14,6 +17,7 @@ body {
     padding-left: 5px;
     line-height: 50px;
     float: left;
+    
 }
 .top-right {
     width: 40%;
@@ -43,10 +47,22 @@ body {
     background: rgba(1,1,1,0.5);
     float: left;
 }
-.ad {
+.add {
+    width: 100%;
+    height: 400px;
+}
+ul li {
     list-style-type: none;
-    line-height: 30px;
     
+    background-color: aqua;
+    line-height: 50px;
+    margin-top: 10px;
+    border-radius: 0px 20px 20px 0px;
+    text-align: center;
+   
+}
+a {
+    text-decoration: none;
 }
 
 .mid-mid{
@@ -55,7 +71,9 @@ body {
     background: rgba(1,1,1,0.5);
     float: left;
     margin-left: 1%;
-
+    background-image: url(https://img-cache.coccoc.com/image2?i=1&l=4/177880096);
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 tr td {
     text-align: right;
@@ -64,13 +82,21 @@ tr td {
 .mid-right {
         width: 20%;
         height: 400px;
-        background:rgba(1,1,1,0.5);
+
         float: left;
         margin-left: 1%;
+        background-image: url(https://anhnenchat.com/wp-content/uploads/2021/04/anh-hinh-nen-cute-nhat-cua-nhung-chu-meo-rung-day-ne-2-281x300.jpg) ;
+        background-repeat: no-repeat;
+        background-size: 400px;
+        
 }
+
 .bot{
     width: 100%;
     height: 50px;
     background: rgba(1,1,1,0.5);
     margin-top: 10px;
+    line-height: 50px;
+    text-align: center;
+    
 }
