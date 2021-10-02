@@ -1,0 +1,48 @@
+/*các thẻ p là con , cháu của class a */
+/* .a p {
+    color: RED;
+}
+/*các thẻ p là chỉ con  của class a*/
+/* .a > p {
+    color: yellow; */
+/* } */
+/* các thẻ p là đòng cấp liền kề của class a*/
+/* .a + p {
+    color: blue; */
+/* } */
+/* các thẻ p là đồng cấp của class a*/
+/* .a ~ p {
+    color:burlywood;
+} */ 
+/* a:link {
+    color: red;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.to {
+    width: 490px;
+}
+.to img {
+    transition: 2s;
+    transition-delay: 3s;
+}
+.be {
+    position:absolute;
+    width: 700px;
+    height: 490px;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 0, 0, 1);
+    transition: 4s;
+}
+.to:hover .be {
+    background: rgba(125, 0,0 ,0);
+    top: 500px;
+    left: 500px; 
+    opacity: 0;
+}
+.to:hover img{
+    transform: rotate(360deg);
+}

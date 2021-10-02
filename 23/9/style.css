@@ -1,0 +1,121 @@
+.menu {
+    width: 100%;
+    height: 50px;
+    background:black;
+   
+}
+.menu-left {
+    width: 19%;
+    height: 50px;
+   
+    float: left;
+}
+
+.menu-mid {
+    width: 60%;
+    height: 50px;
+   
+    float: left;
+    margin-left: 18px;
+}
+.menu-right {
+    width: 19%;
+    height: 50px;
+   
+    float: left;
+    margin-left: 19px;
+}
+.mid {
+    width: 100%;
+    height: 1000px;
+    background: #8a2be2;
+    margin-top: 10px;
+    
+}
+.mid-left {
+    width: 24%;
+    height: 1000px;
+   background: black;
+    float: left;
+
+}
+.left {
+    width: 70%;
+    height: 900px;
+    overflow: scroll;
+}
+
+i {
+    font-size: 40px;
+    padding-top: 30px;
+    margin-left: 5px;
+}
+.coi {
+    font-size: 20px;
+    padding-top:30px ;
+    color: white;
+  
+}
+.mid-mid {
+    width: 52%;
+    height: 1000px;
+    background: wheat;
+    float: left;
+}
+.mid-dau {
+    width: 100%;
+    height: 200px;
+   
+    float: left;
+}
+.cac-o {
+    width: 100%;
+    height: 200px;
+}
+.o {
+    width: 19%;
+    height: 200px;
+    background: yellow;
+    float: left;
+    margin-left: 8px;
+
+}
+.mid-be1 {
+    width: 100%;
+    height: 70px;
+  
+    float: left;
+    
+}
+.be-3 {
+    width: 100%;
+    height: 50px;
+    background: rgb(43, 18, 18);
+    float: left;
+    line-height: 50px;
+    font-size: 20px;
+    
+    
+}
+.mid-be2 {
+    width: 100%;
+    padding-top: 5px;
+    height: 50px;
+   
+    float: left;
+    
+}
+.mid-cuoi {
+    width: 100%;
+    margin-top: 10px;
+    height: 620px;
+    float: left;
+    background: green;
+}
+
+.mid-right {
+    width: 24%;
+    height: 1000px;
+    background: turquoise;
+    float: left;
+}

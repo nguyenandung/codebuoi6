@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cha {
+    width: 1000px;
+    height: 2000px;
+    background: yellow;
+    position: relative;
+
+}
+.con1 {
+    width: 500px;
+    height: 250px;
+    background: red;
+    
+}
+.con2 {
+    width: 20%;
+    height: 200px;
+    background: blue;
+    top: 0;
+    position: fixed;
+    right: 0;
+}
